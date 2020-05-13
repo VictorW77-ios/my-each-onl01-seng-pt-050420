@@ -5,7 +5,8 @@ array = []
    while i < (array.length).times
     yield(array[i])
     i = i + 1
-
+  end
+  
     my_each(array) do |word|
     "#{word}"
   end
